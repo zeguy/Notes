@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Commands</title>
+  <meta name="description" content="Useful CLI Commands">
+  <meta name="author" content="ZeGuy">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <section>
+        <h3>Powershell</h3>
+            <ul>
+                <h4>Checksum</h4>
+                <li>Get-FileHash "filename.extension" -Algorithm "e.g sha256"</li>
+            </ul>
+    </section>
+
+    <section>
+        <h3>Terminal</h3>
+                <ul>
+                    <h4>Basic</h4>
+                    <li>apt update && apt -y dist-upgrade</li>
+                    <li>sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo reboot</li>>
+                    <li>cat</li>
+                    <li>chmod +x "filename"</li>
+                </ul>
+                <ul>
+                    <h4>Apache</h4>
+                    <li>sudo apt-get install apache2</li>
+                    <li>sudo service apache2 start</li>
+
+                    sites-enabled/DNS
+                    <ul>
+                        <li>sudo nano /etc/apache2/sites-enabled/000-default.conf<li>
+                        <li>sudo service apache2 restart</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <h4>Keygen</h4>
+                    <li>ssh-keygen</li>
+                    <li></li>
+                </ul>
+    </section>
+
+    <section>
+        <h3>VirtualBox</h3>
+        <ul>
+            <h4>Shared Host/Guest Folder</h4>
+            <li>add shared folder in virtualbox settings</li>
+            <li>sudo mount -t vboxsf "foldername" "mnt path e.g /mnt/BFG"</li>
+        </ul>
+    </section>
+    
+
+</body>
+</html>
