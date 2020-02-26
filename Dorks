@@ -1,3 +1,4 @@
 auth_user_file.txt
 "login: *" "password: *" filetype:xls
 filetype:log inurl:"password .log" 
+filetype:key "-----BEGIN RSA PRIVATE KEY-----" -inurl:test
